@@ -1,0 +1,21 @@
+Currency Exchange Service
+- http://localhost:8000/currency-exchange/from/USD/to/INR
+- http://35.232.77.213:8000/currency-exchange/from/USD/to/INR
+
+Currency Conversion Service
+- http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+- http://34.133.68.82:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+http://35.223.40.231:8000/actuator/health/
+http://35.223.40.231:8000/actuator/health/liveness
+http://35.223.40.231:8000/actuator/health/readiness
+
+currency-exchange
+currency-conversion
+service-name
+
+CURRENCY_EXCHANGE_SERVICE_HOST
+CURRENCY_CONVERSION_SERVICE_HOST
+SERVICE_NAME_SERVICE_HOST
+
+CURRENCY_EXCHANGE_SERVICE_HOST
